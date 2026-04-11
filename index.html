@@ -4,19 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be My Valentine</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f); /* Soft pastel gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+
+    
+  
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #9d0404;
+    font-style: initial;
+}
+
+
+
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 5em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn.yes {
+    background-color: #7561d9;
+    color: white;
+}
+
+.btn.yes:hover {
+    transform: scale(1.1);
+    background-color: #11d764;
+}
+
+.btn.no {
+    background-color: #7561d9;
+    color: white;
+}
+
+.btn.no:hover {
+    transform: scale(1.1);
+    background-color: #e2430e;
+}
+</style>
 </head>
 <body>
     <div class="container">
         <h1 class="question">Do you love me?</h1>
         <div class="buttons">
-           <a href="1.html">
-                <button class="btn yes">Yes</button>
+           <a href=/1.html>
+                <button class="btn yes">YES</button>
             </a>
-           <a href="2.html">
-                <button class="btn no">No</button>
+           <a href=/2.html>
+                <button class="btn no">NO</button>
             </a> 
         </div>
+
     </div>
     <!-- <script src="script.js"></script> -->
 </body>
