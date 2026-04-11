@@ -1,13 +1,24 @@
 body {
     margin: 0;
     height: 100vh;
-    background: linear-gradient(to bottom, #ffecd2, #fcb69f); /* Soft pastel gradient */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/052/329/247/small/love-and-friendship-in-the-form-of-teddy-bears-and-wooden-hearts-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Arial', sans-serif;
 }
-
+.response 
+{
+font-size: 2em;
+    margin-bottom: 40px;
+    color: #0a0000;
+    font-style: initial;
+}
 .container {
     text-align: center;
     background: rgba(255, 255, 255, 0.9);
